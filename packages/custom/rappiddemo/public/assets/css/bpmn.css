@@ -19,15 +19,16 @@ body {
 
 #paper-container {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 45px;
+    left: 55px;
     right: 350px;
     bottom: 165px;
     overflow: hidden;
+    z-index: 1;
 }
 #inspector-container {
     position: absolute;
-    top: 0;
+    top: 45px;
     right: 0;
     bottom: 25px;
     width: 350px;
@@ -35,21 +36,23 @@ body {
 
 #stencil-container {
     position: absolute;
-    left: 0;
+    left: 55px;
     right: 350px;
-    bottom: 25px;;
-    height: 150px;
+    bottom:25px;
+    height: 225px;
+    z-index: 0;
 }
 
 #toolbar-container {
     position: fixed;
-    left: 10px;
-    top: 10px;
+    left: 70px;
+    top: 55px;
+    z-index: 2;
 }
 
 #statusbar-container {
     position: absolute;
-    left: 0;
+    left: 55px;
     right: 0;
     bottom: 0;
     height: 25px;
